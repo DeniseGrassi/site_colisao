@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.219);
+    color: black;
+    font-weight: bold;
+}
+
+
+header {
+    padding: 16px 0;
+    background-color: black ;
+    color:rgb(168, 163, 163);
+}
+
+header img {
+    width: 180px;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding:12px;
+    margin-left: 60px;
+    font-weight: normal;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 40px;
+}
+
+header nav li  {
+    display:inline ;
+    padding-right: 60px;
+    
+}
+
+header nav li a {
+    text-decoration: none;
+    color:rgb(168, 163, 163);
+    font-weight: 500;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 20px;
+}
+
+#about {
+    margin: 60px;
+}
+
+#about p {
+    margin-bottom: 12px;
+}
+
+section .container img {
+    margin: 0 ;
+    height: 300px;
+    margin-left: 60px;
+}
+
+
+
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+#who p { 
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 18px;
+    font-family: "Jersey 25", sans-serif;
+    
+}
+
+#gif {
+    margin-left: 420px;
+}
+
+#who {
+    margin: 60px;
+}
+
+#who img {
+    margin: 0;
+    margin-left: 60px;
+}
+
+#registration {
+    margin: 60px;
+}
+
+form input,
+form textarea,
+form button {
+    display:block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+    
+}
+
+form textarea {
+    resize: none;
+    height: 580px;  
+}
+
+form button {
+    background-color:#182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color:#a8b9eb ;
+}
+
+#registration .container {
+    display:flex;
+    justify-content: space-between;
+    
+}
+footer {
+    background-color: black ;
+    color: #ecf0f1;
+    padding: 18px 0;
+
+}
