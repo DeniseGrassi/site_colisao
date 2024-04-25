@@ -106,7 +106,7 @@ h2 {
 }
 
 #registration img {
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 form input,
@@ -139,8 +139,26 @@ button:hover {
 #registration .container {
     display:flex;
     justify-content: space-between;
+
     
 }
+
+
+#social-links img{
+    height: 24px;
+}
+
+#social-links li{ 
+    display: inline;
+    margin-right: 8px;
+}
+
+#social-links li a {
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+
 footer {
     background-color: black ;
     color: #ecf0f1;
